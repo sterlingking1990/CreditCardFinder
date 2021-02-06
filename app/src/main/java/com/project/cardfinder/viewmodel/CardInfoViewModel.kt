@@ -19,27 +19,34 @@ class CardInfoViewModel @ViewModelInject constructor(var cardApi:ApiService): Vi
     private var _cardInfo = MutableLiveData<Card>()
     val cardInfo: LiveData<Card> get() = _cardInfo
 
+
     private var _success = MutableLiveData<Boolean>()
     val success:LiveData<Boolean> get() = _success
 
-    private lateinit var iin:Card
+    private var _description = MutableLiveData<String>()
+    val description:LiveData<String> get() = _description
 
 
 
     fun getCardInfo(iin:String){
-        Log.d("iin",iin.toString())
+
         val cardInfo = cardApi.api.getCardInfo(iin)
         cardInfo.enqueue(
             object : Callback<Card> {
                 override fun onFailure(call: Call<Card>, t: Throwable) {
                     _success.value = false
-                    Log.d("FAILURE", t.message.toString())
+                    _description.value = "Could not establish connection"
                 }
 
                 override fun onResponse(call: Call<Card>, response: Response<Card>) {
-                    _success.value = true
-                    _cardInfo.value = response.body()
-                    Log.d("SUCCESS", cardInfo.toString())
+                    if(response.isSuccessful) {
+                        _success.value = true
+                        _cardInfo.value = response.body()
+                    }
+                    else{
+                        _success.value = false
+                        _description.value = response.message()
+                    }
                 }
             }
         )
