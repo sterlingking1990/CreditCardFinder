@@ -2,4 +2,11 @@
     <string name="app_name">CardFinder</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="enter_card_number">Enter Card Number</string>
+    <string name="poor_or_no_network">poor or no network</string>
+    <string name="brand">brand</string>
+    <string name="bank_name">Bank</string>
+    <string name="country">Country</string>
+    <string name="card_type">Card</string>
+    <string name="card_number">00000000</string>
 </resources>
