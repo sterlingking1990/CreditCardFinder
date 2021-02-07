@@ -1,0 +1,56 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="320dp"
+    android:height="200dp"
+    android:viewportWidth="320"
+    android:viewportHeight="200">
+  <path
+      android:pathData="M21,0H299a21,21 0,0 1,21 21V179a21,21 0,0 1,-21 21H21A21,21 0,0 1,0 179V21A21,21 0,0 1,21 0Z">
+    <aapt:attr name="android:fillColor">
+      <gradient 
+          android:startY="-22.6"
+          android:startX="348.48"
+          android:endY="154.6"
+          android:endX="34.24"
+          android:type="linear">
+        <item android:offset="0" android:color="#FF1B1A60"/>
+        <item android:offset="1" android:color="#FF5E1A86"/>
+      </gradient>
+    </aapt:attr>
+  </path>
+  <group>
+    <clip-path
+        android:pathData="M21,0H299a21,21 0,0 1,21 21V179a21,21 0,0 1,-21 21H21A21,21 0,0 1,0 179V21A21,21 0,0 1,21 0Z"/>
+    <path
+        android:pathData="M79,-29 L412.494,232.391L412.494,-18.095Z"
+        android:strokeAlpha="0.5"
+        android:fillColor="#d8d8d8"
+        android:fillAlpha="0.5"/>
+    <path
+        android:pathData="M342.391,-14.301 L-13,202.723L-13,-5.095Z"
+        android:strokeAlpha="0.5"
+        android:fillAlpha="0.5">
+      <aapt:attr name="android:fillColor">
+        <gradient 
+            android:startY="138.70093"
+            android:startX="-22.595556"
+            android:endY="-3.0157514"
+            android:endX="259.2295"
+            android:type="linear">
+          <item android:offset="0" android:color="#FFEEEEEE"/>
+          <item android:offset="1" android:color="#00D8D8D8"/>
+        </gradient>
+      </aapt:attr>
+    </path>
+    <path
+        android:pathData="M125,-29 L458.494,232.391L458.494,-18.095Z"
+        android:strokeAlpha="0.5"
+        android:fillColor="#d8d8d8"
+        android:fillAlpha="0.5"/>
+    <path
+        android:pathData="M190,-29 L523.494,232.391L523.494,-18.095Z"
+        android:strokeAlpha="0.5"
+        android:fillColor="#d8d8d8"
+        android:fillAlpha="0.5"/>
+  </group>
+</vector>
