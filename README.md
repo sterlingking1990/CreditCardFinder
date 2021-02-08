@@ -14,9 +14,9 @@
 1. BinList Api - [here](https://www.binlist.net)
 
 ## Architure Component 
- **MVVM**
- **DI- Dependency Injection**
- **Coroutine**
+ 1. **MVVM**
+ 2. **DI- Dependency Injection**
+ 3. **Coroutine**
 
 
 ## Launch
