@@ -5,7 +5,7 @@
 #### This is a test project from 
 ![alt text](https://pbs.twimg.com/profile_images/1259087992951648256/hGj8Hr5s_400x400.png "MintBank")
 
-#### It is a Mini Android Application developmed by [me](https://www.github.com/sterlingking1990) which displays some information such as Credit Card Type, Brand, Country, Bank when the user input above 4 digits credit card number.
+#### It is a Mini Android Application developed by [me](https://www.github.com/sterlingking1990) which displays some information such as Credit Card Type, Brand, Country, Bank when the user input above 4 digits credit card number.
 
 ## Language Used
 1. Android/Kotlin
